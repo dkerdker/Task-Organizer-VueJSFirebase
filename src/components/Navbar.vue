@@ -22,8 +22,14 @@
               <span class="grey--text">Menu</span>
             </v-btn>
           </template>
-          <v-list>
-            <v-list-item v-for="(link, index) in links" :key="index" :to="link.route">
+          <v-list flat>
+            <v-list-item
+              :ripple="false"
+              active-class="primary--text"
+              v-for="(link, index) in links"
+              :key="index"
+              :to="link.route"
+            >
               <v-list-item-title color="primary">{{ link.text }}</v-list-item-title>
             </v-list-item>
           </v-list>
@@ -53,8 +59,15 @@
           <Popup @projectAdded="snackbar = true" />
         </v-flex>
       </v-layout>
-      <v-list>
-        <v-list-item v-for="link in links" :key="link.text" router :to="link.route">
+      <v-list flat>
+        <v-list-item
+          :ripple="{ class: 'white--text' }"
+          active-class="secondary"
+          v-for="link in links"
+          :key="link.text"
+          router
+          :to="link.route"
+        >
           <v-list-item-icon>
             <v-icon class="white--text">{{ link.icon }}</v-icon>
           </v-list-item-icon>
