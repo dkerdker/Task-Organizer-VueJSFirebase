@@ -27,7 +27,7 @@
       </v-layout>
 
       <v-card flat v-for="project in projects" :key="project.title">
-        <v-layout row wrap :class="`pa-3 project ${project.status}`">
+        <v-layout row wrap :class="`pa-3 ${project.status}Indicator`">
           <v-flex xs12 md6>
             <div class="caption grey--text">Project title</div>
             <div>{{ project.title }}</div>
@@ -44,7 +44,8 @@
             <div class="right">
               <v-chip
                 small
-                :class="`${project.status} white--text my-2 caption`"
+                class="white--text my-2 caption"
+                :color="project.status"
               >{{ project.status }}</v-chip>
             </div>
           </v-flex>
@@ -87,22 +88,13 @@ export default {
 </script>
 
 <style>
-.project.complete {
+.completeIndicator {
   border-left: 4px solid #3cd1c2;
 }
-.project.ongoing {
+.ongoingIndicator {
   border-left: 4px solid #ffaa2c;
 }
-.project.overdue {
+.overdueIndicator {
   border-left: 4px solid #f83e70;
-}
-.v-chip.complete {
-  background: #3cd1c2;
-}
-.v-chip.ongoing {
-  background: #ffaa2c;
-}
-.v-chip.overdue {
-  background: #f83e70;
 }
 </style>

@@ -18,6 +18,10 @@ const opts = {
                 info: '#ffaa2c',
                 success: '#3BE8B0',
                 warning: '#FFC107',
+
+                complete: '#3cd1c2',
+                ongoing: '#ffaa2c',
+                overdue: '#f83e70',
             }
         }
     }
