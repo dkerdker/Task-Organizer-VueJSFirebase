@@ -1,6 +1,6 @@
 # task-organizer-vuetify
 
-<img src="assets/screenshot1.png" width="600" alt="project screenshot" />
+<img src="http://www.fillmurray.com/100/100" width="600" alt="project screenshot" />
 
 ## Project setup
 ```
