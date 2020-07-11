@@ -1,6 +1,6 @@
 # task-organizer-vuetify
 
-<img src="assets/screenshot1.png" width="600" alt="project screenshot" />
+<img src="https://raw.githubusercontent.com/dkerdker/Task-Organizer-VueJSFirebase/master/src/assets/screenshot1.png" width="600" alt="project screenshot" />
 
 ## Project setup
 ```
