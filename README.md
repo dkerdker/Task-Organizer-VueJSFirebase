@@ -1,5 +1,7 @@
 # task-organizer-vuetify
 
+<img src="assets/OmegaEZTaskerScreenshot.png" width="800">
+
 ## Project setup
 ```
 npm install

@@ -1,7 +1,7 @@
 <template>
   <div class="projects">
     <v-container fluid>
-      <h1 class="page-title grey--text">Projects</h1>
+      <h1 class="page-title grey--text">Ongoing Projects</h1>
     </v-container>
     <v-container class="my-5">
       <v-expansion-panels :accordion="true" :multiple="true">
