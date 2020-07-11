@@ -1,6 +1,6 @@
 # task-organizer-vuetify
 
-<img src="assets/OmegaEZTaskerScreenshot.png">
+<img src="/assets/OmegaEZTaskerScreenshot.png" width="600" alt="project screenshot">
 
 ## Project setup
 ```
